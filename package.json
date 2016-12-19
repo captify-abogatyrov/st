@@ -4,11 +4,20 @@
   "main": "index.js",
   "repository": "git@github.com:captify-abogatyrov/st.git",
   "author": "<anton.bogatyrov@captify.co.uk>",
+  "scripts": {
+    "lint": "eslint ./ --ignore-pattern .gitignore || true"
+  },
   "license": "MIT",
   "dependencies": {
+    "babel-eslint": "^7.1.1",
     "react": "^15.4.1"
   },
   "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
     "html-webpack-plugin": "^2.24.1",
     "webpack": "2.1.0-beta.25"
   }
